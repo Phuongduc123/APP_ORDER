@@ -1,18 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#FFEA30"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Order App"
+        android:textSize="70sp"
+        android:textStyle="bold"
+        android:textColor="#000" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+
+        android:textSize="50sp"
+        android:textStyle="italic|bold"
+        android:background="#FFC107"
+        android:layout_marginTop="50dp"
+        android:text="Staff chef"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+
+        android:textSize="50sp"
+        android:textStyle="italic|bold"
+        android:background="#FFC107"
+        android:layout_marginTop="50dp"
+        android:text="Staff Order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:textColor="#000" />
+
+</LinearLayout>
