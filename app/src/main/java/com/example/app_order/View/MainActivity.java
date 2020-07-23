@@ -1,8 +1,10 @@
-package com.example.app_order;
+package com.example.app_order.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.app_order.R;
 
 public class MainActivity extends AppCompatActivity {
 
