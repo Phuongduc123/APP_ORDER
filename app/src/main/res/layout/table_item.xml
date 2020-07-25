@@ -9,7 +9,7 @@
         <ImageView
             android:id="@+id/ImageviewTable"
             android:layout_width="120dp"
-            android:layout_height="120dp"/>
+            android:layout_height="130dp"/>
 
         <TextView
             android:layout_centerHorizontal="true"
@@ -17,6 +17,7 @@
             android:id="@+id/TextviewTable"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
+
     </RelativeLayout>
 
 
